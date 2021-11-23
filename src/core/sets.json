@@ -1,0 +1,110 @@
+{
+    "syn_sets": {
+        "තනතුර": [
+            "පදවිය"
+        ],
+        "පුරුෂ": [
+            "පිරිමි",
+            "male"
+        ],
+        "අමාත්‍ය": [
+            "ඇමති"
+        ],
+        "සහ": [
+            "හා"
+        ],
+        "හොඳම": [
+            "ප්රසිද්ධම",
+            "විශේෂ"
+        ],
+        "නරකම": [
+            "අප්රසිද්ධම"
+        ],
+        "විද්යුත්-තැපෑල": [
+            "විද්යුත් තැපෑල"
+        ],
+        "දුරකතන-අංකය": [
+            "දුරකතන අංකය"
+        ],
+        "චරිතාපදානය": [
+            "තොරතුරු",
+            "විස්තර"
+        ],
+        "සමගි ජන බලවේගය":["විරුද්ධ පක්ෂය","විපක්ෂය"],
+        "ශ්‍රී ලංකා පොදුජන පෙරමුණ":["පාලක පක්ෂය","ආණ්ඩු පක්ෂය"]
+    },
+    "puncs": [
+        ".",
+        ":",
+        ",",
+        ";",
+        "?",
+        "-",
+        "_"
+    ],
+    "connect_sets": {
+        "and": "සහ",
+        "or": "හෝ"
+    },
+    "rank_sets": {
+        "best": "හොඳම",
+        "avg": "සාමාන්ය",
+        "worst": "නරකම"
+    },
+    "select_and_field_sets": {
+        "name": "නම",
+        "age": "වයස",
+        "birthday": "උපන්දිනය",
+        "position.type": "තනතුර",
+        "position.subject": "විෂය",
+        "party": "පක්ෂය",
+        "district": "දිස්ත්රික්කය",
+        "contact_information.email": "විද්යුත්-තැපෑල",
+        "contact_information.phone": "දුරකතන-අංකය",
+        "biography": "චරිතාපදානය"
+    },
+    "field_boost_scores": {
+        "name": 1,
+        "birtday": 1,
+        "age": 1,
+        "position.type": 3,
+        "position.subject": 1,
+        "party": 2,
+        "district": 2,
+        "contact_information.email": 1,
+        "contact_information.phone": 1,
+        "biography": 1
+    },
+    "stop_words": [
+        "සහ",
+        "හෝ",
+        "වැනි",
+        "නම්",
+        "සිට",
+        "දී",
+        "මේ",
+        "යන",
+        "සඳහා",
+        "ද",
+        "ත්",
+        "අතර",
+        "වරු"
+    ],
+    "field_types": {
+        "name": "text",
+        "age": "number",
+        "position.type": "text",
+        "position.subject": "text",
+        "party": "text",
+        "district": "text",
+        "position.email": "text",
+        "position.phone": "number",
+        "biography": "text"
+    },
+    "agg_sets": {
+        "count": "ගණන",
+        "range": "අතර",
+        "high": "ඉහළ",
+        "low": "පහළ"
+    }
+}
